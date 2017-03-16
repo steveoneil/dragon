@@ -1,0 +1,44 @@
+.main-header {
+    margin-top: 30px;
+}
+
+h1 {
+    margin-left: 20px;
+    display: inline;
+    font-size: 30px;
+}
+
+button {
+    margin: 20px;
+}
+
+h4 {
+    display: inline-block;
+}
+
+#memberId {
+    display: inline-block;
+    width: 80px;
+    margin-left: 20px;
+}
+
+#club-spr {
+    margin-left: 113px;
+}
+
+.totals {
+    background-color: lightblue
+}
+
+button.adjustment {
+    margin: 0px 0px 0px 5px;
+}
+
+#reason {
+    display: inline-block;
+    width: 240px;
+    margin-left: 10px;
+}
+#reason-adjust {
+    width: 50%;
+}
