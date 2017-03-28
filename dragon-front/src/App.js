@@ -54,7 +54,7 @@ class App extends Component {
       page: page
     });
     if (page === 'spr') {
-      axios.get(SERVERURL + '/data')
+      axios.get(SERVERURL + '/api/club/activity')
       .then (function (response) {
         _this.setState({
           sprData: response.data,
@@ -62,7 +62,7 @@ class App extends Component {
       })
     }
     if (page === 'mySpr') {
-      axios.get(SERVERURL + '/memberactivity/' + this.state.memberId)
+      axios.get(SERVERURL + '/api/member/activity/' + this.state.memberId)
       .then (function (response) {
         _this.setState({
           mySprData: response.data,
